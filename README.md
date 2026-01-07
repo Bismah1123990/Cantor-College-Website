@@ -37,14 +37,13 @@ Scores achieved:
 EVIDENCE SCREENSHOTS ARE INCLUDED IN THE EVIDENCE FOLDER.
 
 ## Database
-A backend database was not implimented for this project.
+A backend database was not implimenred for this projecr.
 This was an optional extension feature, and the focus of the project was on front end development, structure and accessibility..
 
 ## Javascript
-Javascript was not used in this project. 
-The wesbite focuses on semantic HTML , CSS styling and accessibility and all these required functions are achieved without the need for javascript.
+Javascript was used to demonstrate basic client side scripting concepts taught in my lectures, inclusing responding to page load events and handling user interactions via
+event listeners. The script is linked externally to maintain seperation of concerns and follows the same structure taught to us in lectures.
 
 ## AI transparency statement 
 AI Tools were used to support the improve the quality of my final output.
-
 All website code was written and edited by me, and final work was checked and understood by me.
