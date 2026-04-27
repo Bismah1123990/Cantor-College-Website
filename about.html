@@ -2,52 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="description" content="Cantor College provides education in buisness and computing">
-    <title> About Us | Cantor College</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cantor College provides education in business and computing">
+    <title>About Us | Cantor College</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body id="aboutPage">
 
-<header> 
- <nav>
-     <a href="index.html">Home</a> 
-     <a href="courses.html">Courses</a> 
-     <a href="about.html">About</a>
- </nav>
+<header>
+  <div class="header-container">
+
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Cantor College Logo">
+    </a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Courses ▾</button>
+        <div class="dropdown-content">
+          <a href="computingcourses.html">Computing</a>
+          <a href="designcourses.html">Design</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Students ▾</button>
+        <div class="dropdown-content">
+          <a href="studentinfo.html">Student Info</a>
+          <a href="learning.html">Learning Resources</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Staff ▾</button>
+        <div class="dropdown-content">
+          <a href="staffinfo.html">Staff Info</a>
+        </div>
+      </div>
+
+      <a href="facilities.html">Facilities</a>
+      <a href="business.html">Business</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </div>
 </header>
 
 <main>
-<img src="images/about.jpg" alt="Our learning environment">
-<h1>About Cantor College</h1>
+  <h1>About Cantor College</h1>
 
-<p>
-Cantor College is a place to innovate learn and teach, we are dedicated to providing high quality education which supports pupils in achieveing there career goals.
-</p>
-  
-<section>
-<h2>Our Ethos</h2>
-<p>
-Our ethos is to provide high standard education tailored to you with industry relevent education delivered to you in a productive learning environment.
-</p>
-</section>
+  <p>
+    Cantor College was established in 1989 to specialize in Computing and Design.
+    At Cantor College, we provide students with the education, skills, and experience
+    needed to succeed in their careers. Through our teaching and strong links with
+    leading researchers and employers, students gain a competitive edge in the job market.
+  </p>
+    <div class="carousel">
+        <button class="prev" onclick="prevSlide()">❮</button>
 
-<section>
-<h2>Our values</h2>
-<p>
-We put quality at the forefront of our college and we value innovation within all of our students.
-</p>
-</section>
-
+        <div class="carousel-track">
+            <img src="images/classroom.jpg" alt="Students in classroom">
+            <img src="images/lab.jpg" alt="Computer lab">
+            <img src="images/students.jpg" alt="Students collaborating">
+       </div>
+    <button class="next" onclick="nextSlide()">❯</button>
+  </div>
 </main>
 
 <footer>
-<p>&copy; 2026 Cantor College</p>
-</footyer>
+   <p>
+      Cantor College<br>
+      Main Street<br>
+      Sheffield<br>
+      SC4 2BB<br><br>
 
-<a href="courses.html">View our courses</a>
-</p>
-<script src="script1.js"></script>
-<body id="aboutPage">
+      Tel: (01321) 2340 235<br>
+      Fax: (01321) 2340 236<br>
+      Email: info@cantorcollege.ac.uk 
+    </p>
+   </p>&copy; 2026 Cantor College</p>
+</footer>
+
+<script src="CantorCollege2.js"></script>
+</body>
 </html>

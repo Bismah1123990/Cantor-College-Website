@@ -11,18 +11,72 @@
 <body>
     
     <header>
-     <nav>
-         <a href="index.html">Home</a>
-         <a href="courses.html">Courses</a>
-         <a href="about.html">About</a>
-     </nav>
+         <div class="header-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Cantor College Logo">
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">Courses ▾</button>
+          <div class="dropdown-content">
+            <a href="computingcourses.html">Computing</a>
+            <a href="designcourses.html">Design</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Students ▾</button>
+          <div class="dropdown-content">
+            <a href="studentinfo.html">Student Info</a>
+            <a href="learning.html">Learning Resources</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Staff ▾</button>
+          <div class="dropdown-content">
+            <a href="staffinfo.html">Staff Info</a>
+          </div>
+        </div>
+        <a href="facilities.html">Facilities</a>
+        <a href="business.html">Business</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
     </header>
 
     <main>
     <img src="images/courses.jpg" alt="courses offered at the college">
      <h1>Our Courses</h1>
 
-    <section>
+     <ul>
+        <li>Computing(undergraduate)</li>
+        <li>Computer networks(undergraduate)</li>
+        <li>Cybersecurity with forensics(undergraduate)</li>
+        <li>Computer science for games(undergraduate)</li>
+        <li>Computing with Foundation Year(undergraduate)</li>
+        <li>Cyber Security with Forensics with Foundation Year(undergraduate)</li>
+        <li>Software Engineering with Foundation Year(undergraduate)</li>
+        <li>Cyber Security with Foundation Year(undergraduate)</li>
+        <li>Information Technology with Business Studies with Foundation Year(undergraduate)</li>
+        <li>Computer Science with Foundation Year(undergraduate)</li>
+        <li>Computer Science for Games with Foundation Year(undergraduate)</li>
+        <li>Business and Digital Technology with Foundation Year(undergraduate)</li>
+        <li>Computing(undergraduate)</li>
+        <li>Cyber Security(undergraduate)</li>
+        <li>Graphic Design(undergraduate)</li>
+        <li>Interior Architecture and Design(undergraduate)</li>
+        <li>Jewellery, Materials and Design(undergraduate)</li>
+        <li>Game Design and Development(undergraduate)</li>
+        <li>Product Design(undergraduate)</li>
+        <li>Digital Media Production(undergraduate)</li>
+     </ul>
+
+
+   <section>
      <h2>Computing</h2>
      <p>
      Our computing courses focus on cyber security and software engineering.
@@ -30,16 +84,26 @@
     </section>
 
     <section>
-    <h2>Buisness</h2>
+    <h2>Business</h2>
     <p>
-    Our buisness courses develop strong analytical and organisational skills.
+    Our business courses develop strong analytical and organisational skills.
     </p>
    <section>
 
 </main>
 
 <footer>
- <p>&copy; 2026 Cantor College</p>
+   <p>
+      Cantor College<br>
+      Main Street<br>
+      Sheffield<br>
+      SC4 2BB<br><br>
+
+      Tel: (01321) 2340 235<br>
+      Fax: (01321) 2340 236<br>
+      Email: info@cantorcollege.ac.uk 
+    </p>
+   </p>&copy; 2026 Cantor College</p>
 </footer>
 <script src="script1.js"></script>
 <body id="coursesPage">

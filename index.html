@@ -1,53 +1,120 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="description" content="Cantor College provides education in buisness and computing">
+    <meta name="description" content="Cantor College provides education in business and computing">
     <title>Cantor College</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 
-<<body id="homePage">>
+<body id="homePage">
 
-<header>
- <nav>
-     <a href="index.html">Home</a> 
-     <a href="courses.html>Courses</a> 
-     <a href="about.html">About</a>
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Cantor College Logo">
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
 
-</nav>
-</header>
+        <div class="dropdown">
+          <button class="dropbtn">Courses ▾</button>
+          <div class="dropdown-content">
+            <a href="computingcourses.html">Computing</a>
+            <a href="designcourses.html">Design</a>
+          </div>
+        </div>
 
-<main>
+        <div class="dropdown">
+          <button class="dropbtn">Students ▾</button>
+          <div class="dropdown-content">
+            <a href="studentinfo.html">Student Info</a>
+            <a href="learning.html">Learning Resources</a>
+          </div>
+        </div>
 
+        <div class="dropdown">
+          <button class="dropbtn">Staff ▾</button>
+          <div class="dropdown-content">
+            <a href="staffinfo.html">Staff Info</a>
+          </div>
+        </div>
+        <a href="facilities.html">Facilities</a>
+        <a href="business.html">Business</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
 
-<img src="images/campus.jpg" alt="cantor college campus">
-<h1>Welcome to Cantor College</h1>
+  </header>
+  
+  <main>
+    <  <h1 class="center">Library & Learning Resources</h1>
 
-<p>
- Cantor College provides excellent education in buisness and computing fields.
-</p>
+  <section class="intro">
+    <h2>Access to Resources</h2>
+    <p>
+      All students and staff at Cantor College are entitled to register as members of the Library and Resource Centre. These facilities support both academic study and professional development throughout your time at the College.
+    </p>
 
+    <p>
+      Membership may also be extended to external individuals or organisations for a fee. Access for non-members can be arranged for study purposes where appropriate.
+    </p>
+  </section>
 
-<section>
-<h2>Our Courses</h2>
-<p>
-   We provide a wide variety of undergraduate and postgraduate courses made to open up career paths.
-</p>
-</section>
-</main>
+  <section class="intro">
+    <h2>Facilities & Services</h2>
+    <ul>
+      <li>Extensive collection of books, journals, and digital resources</li>
+      <li>Dedicated study areas and computer workstations</li>
+      <li>Access to online databases and research materials</li>
+      <li>Support for independent and group study</li>
+    </ul>
+  </section>
 
-<footer>
-<p>&copy; 2026 Cantor Collefe</p>
-</footer>
-      
-<a href="courses.html">View our courses</a>
-</p>
+  <section class="intro">
+    <h2>Rules and Responsibilities</h2>
+    <p>
+      Use of the Library and Resource Centre requires adherence to College rules designed to ensure a safe, fair, and productive environment for all users.
+    </p>
 
-    <script src="script1.js"></script>
+    <p>
+      These rules apply across all College sites, including libraries and workstation rooms. Staff are authorised to enforce these regulations where necessary.
+    </p>
+  </section>
+
+  <section class="intro">
+    <h2>Disciplinary Procedures</h2>
+    <p>
+      Failure to follow the rules may result in disciplinary action, including restricted access to facilities. In serious cases, College regulations for students or staff procedures may be applied.
+    </p>
+
+    <img src="images/library.jpg" alt="Students studying in the library">
+  </section>
+
+  <div style="text-align:center; margin-top:20px;">
+    <button>Explore Resources</button>
+  </div>
+
   </main>
 
+  <footer>
+   <p>
+      Cantor College<br>
+      Main Street<br>
+      Sheffield<br>
+      SC4 2BB<br><br>
+
+      Tel: (01321) 2340 235<br>
+      Fax: (01321) 2340 236<br>
+      Email: info@cantorcollege.ac.uk 
+    </p>
+   </p>&copy; 2026 Cantor College</p>
+</footer>
+
 </body>
+<script src="CantorCollege2.js"></script>
 </html>
